@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+.navBar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navBar ul li {
+    list-style: none;
+}
+.navBar ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.heroSection {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+
+}
+#myName {
+    font-size: 90px;
+    font-family: Oswald, sans-serif;
+    padding-left: 40px;
+    margin: 25px;
+}
+
+#intro {
+    font-size: 20px;
+    align-self: flex-end;
+}
